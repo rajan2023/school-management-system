@@ -1,0 +1,1 @@
+reusable function goes here.

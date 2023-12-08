@@ -1,0 +1,1 @@
+components related to all pages like buttons, modal goes here.
