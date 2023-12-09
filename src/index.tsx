@@ -11,8 +11,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <MantineProvider >
-        <App />
+      <MantineProvider>
+          <App />
       </MantineProvider>
     </BrowserRouter>
   </React.StrictMode>
