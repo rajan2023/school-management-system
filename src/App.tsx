@@ -1,9 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import LoginComponent from "./pages/auth/login";
+import Dashboard from "./pages/dashboard";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Student Management</p>
-      </header>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/login" element={<LoginComponent />} />
+      </Routes>
     </div>
   );
 }
